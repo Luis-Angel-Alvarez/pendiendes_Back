@@ -1,0 +1,5 @@
+* Paquete del control reservado para los de servicios con protocolo SOAP.
+* Los contratos WSDL, o XSD , deben estar contenidos dentro de src/main/resources.
+* La generación de las clases desde un plugin deben hacerse dentro del paquete target/generated-source/.
+* Los códigos generados por un plugin no deben ir dentro de src/main/java.
+* Nombre sugerido xxxxxxSOAPControlador.java

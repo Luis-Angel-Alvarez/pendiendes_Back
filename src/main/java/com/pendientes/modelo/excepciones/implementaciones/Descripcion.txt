@@ -1,0 +1,30 @@
+* Paquete del modelo reservado para la declaración de las excepciones del proyecto, todas las clases heredan de la clase GenericaExcepcion.
+* Las excepciones controladas se cachan con try{}catch(GenericaExceptiones ge){}.
+* Las excepciones no controladas se cachan con  try{}catch(Exception ge){}.
+* Nombre sugerido para las interfaces xxxxxx.java.
+
+
+
+Un ejemplo de la implementación puede ser el siguiente:
+
+
+package com.gfa.obtenerclasesservicios.modelo.excepciones.implementaciones;
+
+import com.gfa.obtenerclasesservicios.modelo.excepciones.GenericaExcepciones;
+
+public class ConsultaVaciaExcepcion extends GenericaExcepciones {
+	private static final long serialVersionUID = 1L;
+	private static final String MENSAJE_EXCEPCION = "Consulta vacia";
+	private static final Integer CODIGO=101;
+	public ConsultaVaciaExcepcion() {
+		super(MENSAJE_EXCEPCION);
+	}
+	@Override
+	public String getMessage() {
+		return MENSAJE_EXCEPCION;
+	}
+	public Integer getCodigo(){
+		return CODIGO;
+	}
+}
+

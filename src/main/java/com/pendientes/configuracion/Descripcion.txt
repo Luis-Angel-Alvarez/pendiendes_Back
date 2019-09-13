@@ -1,0 +1,2 @@
+* Paquete reservado para la configuración explicita del proyecto.
+* Para la configuración implícita del proyecto se utiliza los archivos contenidos en src/main/resources/*.yml.

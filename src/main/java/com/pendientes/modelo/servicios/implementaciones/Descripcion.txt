@@ -1,0 +1,4 @@
+* Paquete del modelo reservado para la declaración de los serivicios.
+* Se compone del parquete servicios/ reservado para las interfaces y el paquete implementaciones/ para las clase de implementación.
+* Nombre sugerido para las interfaces xxxxxxServicio.java
+* Nombre sugerido para las clases que implementan las interfaces xxxxxxServicioImpl.java

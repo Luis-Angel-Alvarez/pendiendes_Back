@@ -1,0 +1,2 @@
+* Paquete del modelo reservado para los Dto (Data Transfer Object) de respuesta.
+* Nombre sugerido xxxxxxDtoR.java

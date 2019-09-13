@@ -1,0 +1,14 @@
+* Paquete del modelo reservado para los convertidores de Dto (Data Transfer Object) a Entidades y Entidades a Dto (Data Transfer Object).
+* Nombre sugerido xxxxxxConvertidor.java
+
+Un par de ejemplos pueden ser:
+
+@Component("dtoAEntidadesConvertidor")
+public class DtoAEntidadesConvertidor {
+
+}
+
+
+public class EntidadesADtoConvertidor {
+	
+}
